@@ -1,0 +1,62 @@
+{
+    "replacements": [
+	{
+            "matches": [
+			"*:enemy gnome notice01",
+			"*:enemy gnome notice02",
+			"*:enemy gnome notice03"
+			],
+            "sounds": [
+                {
+                    "sound": "jakejzmrd.ogg",
+					"weight": 6
+                }            
+	    ]
+        },
+	{
+            "matches": ["*:enemy hunter aim start01"],
+            "sounds": [
+                { "sound": "AlertedSFX-31.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": ["*:enemy hunter aim start02"],
+            "sounds": [
+                { "sound": "AlertedSFX-33.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": ["*:enemy hunter aim start03"],
+            "sounds": [
+                { "sound": "AlertedSFX-36.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": ["*:enemy hunter aim start global01"],
+            "sounds": [
+                { "sound": "AlertedSFX-31Global.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": ["*:enemy hunter aim start global02"],
+            "sounds": [
+                { "sound": "AlertedSFX-33Global.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": ["*:enemy hunter aim start global03"],
+            "sounds": [
+                { "sound": "AlertedSFX-36Global.ogg", "weight": 5 }
+            ]
+        },
+        {
+            "matches": "*:enemy beamer attack intro",
+            "sounds": [
+                {
+                    "sound": "tycuraku.ogg",
+                    "weight": 5
+                }
+            ]
+        }
+     ]
+}
